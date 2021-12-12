@@ -13,7 +13,7 @@ CUSTOTERRA = 4,00 METRO (estender terra)
 #include <cmath>;
 #include <math.h>;
 
-double largura, comprimento, custoRio, custoTerra, dRio;
+double largura, comprimento, custoRio, custoTerra, dRio, custoOtimizado, custoTotal;
 
 using namespace std;
 
@@ -34,7 +34,8 @@ int main(int argc, char const *argv[])
 
 
     dRio = sqrt(pow('x',2)+largura);
-    
+
+    custoOtimizado = ((custoTerra * -1) + (custoRio * 1/2) * (pow('x',2) + pow(largura,2)));
 
     return 0;
 }
