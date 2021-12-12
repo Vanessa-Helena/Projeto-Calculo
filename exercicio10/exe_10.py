@@ -5,34 +5,16 @@
 # CUSTORIO = 5,00 O METRO (estender no rio)
 # CUSTOTERRA = 4,00 METRO (estender terra)
 
-largura = float(input('Informe a largura do Rio: '));
-comprimento = float(input('Informe o comprimento do Rio: '));
-custoRio = float(input('Informe a largura do Rio: '));
-custoTerra = float(input('Informe a largura do Rio: '));
-dRio = float(input('Informe a largura do Rio: '));
+from sympy import *
+import numpy as np
+
 custoOtimizado = 0;
 custoTotal = 0;
-x = None;
+x = Symbol('x');
 
+largura = float(input('Informe a largura do Rio: '));
+comprimento = float(input('Informe o comprimento do Rio: '));
+custoRio = float(input('Informe o custo em Metros para estender o cabo pelo Rio: '));
+custoTerra = float(input('Informe a largura do Rio: '));
+dRio = float(input('Informe o custo em Metros para estender o cabo pela Terra: '));
 
-largura = input('')
-    
-    cout << "Informe a largura do rio: ";
-    cin >> largura;
-
-    cout << "Informe o comprimento do rio: ";
-    cin >> comprimento;
-
-    cout << "Informe o custo em Metros para estender o cabo pelo Rio: ";
-    cin >> custoRio;
-
-    cout << "Informe o custo em Metros para estender o cabo pela Terra: ";
-    cin >> custoRio;
-
-
-    dRio = sqrt(pow('x',2)+largura);
-
-    custoOtimizado = ((custoTerra * -1) + (custoRio * 1/2) * (pow('x',2) + pow(largura,2)));
-
-    return 0;
-}
