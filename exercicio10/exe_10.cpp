@@ -11,12 +11,15 @@ CUSTOTERRA = 4,00 METRO (estender terra)
 #include<stdio.h>;
 #include<stdlib.h>;
 
-int altura, comprimento, custoRio, custoTerra;
+float largura, comprimento, custoRio, custoTerra;
 
+using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    /* code */
     
+    
+
+
     return 0;
 }
