@@ -5,3 +5,18 @@ COMPRIMENTO = 3000 (altura do rio)
 CUSTORIO = 5,00 O METRO (estender no rio)
 CUSTOTERRA = 4,00 METRO (estender terra)
 */
+
+#include<ostream>;
+#include<numeric>;
+#include<stdio.h>;
+#include<stdlib.h>;
+
+int altura, comprimento, custoRio, custoTerra;
+
+
+int main(int argc, char const *argv[])
+{
+    /* code */
+    
+    return 0;
+}
