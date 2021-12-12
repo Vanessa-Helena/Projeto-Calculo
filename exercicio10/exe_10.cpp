@@ -6,10 +6,10 @@ CUSTORIO = 5,00 O METRO (estender no rio)
 CUSTOTERRA = 4,00 METRO (estender terra)
 */
 
-#include<ostream>;
-#include<numeric>;
-#include<stdio.h>;
-#include<stdlib.h>;
+#include <iostream>;
+#include <numeric>;
+#include <stdio.h>;
+#include <stdlib.h>;
 
 float largura, comprimento, custoRio, custoTerra;
 
@@ -18,8 +18,17 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     
-    
+    cout << "Informe a largura do rio: ";
+    cin >> largura;
 
+    cout << "Informe o comprimento do rio: ";
+    cin >> comprimento;
+
+    cout << "Informe o custo em Metros para estender o cabo pelo Rio: ";
+    cin >> custoRio;
+
+    cout << "Informe o custo em Metros para estender o cabo pela Terra: ";
+    cin >> custoRio;
 
     return 0;
 }
