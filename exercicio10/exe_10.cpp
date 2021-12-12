@@ -10,6 +10,7 @@ CUSTOTERRA = 4,00 METRO (estender terra)
 #include <numeric>;
 #include <stdio.h>;
 #include <stdlib.h>;
+#include <cmath>;
 
 float largura, comprimento, custoRio, custoTerra;
 
@@ -29,6 +30,10 @@ int main(int argc, char const *argv[])
 
     cout << "Informe o custo em Metros para estender o cabo pela Terra: ";
     cin >> custoRio;
+
+    
+
+
 
     return 0;
 }
