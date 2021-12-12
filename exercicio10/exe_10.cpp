@@ -33,7 +33,7 @@ int main(int argc, char const *argv[])
     cin >> custoRio;
 
 
-    dRio = sqrt(pow(x,2)+largura);
+    dRio = sqrt(pow('x',2)+largura);
 
 
     return 0;
