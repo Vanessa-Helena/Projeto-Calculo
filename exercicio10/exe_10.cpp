@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
 
 
     dRio = sqrt(pow('x',2)+largura);
-
+    
 
     return 0;
 }
